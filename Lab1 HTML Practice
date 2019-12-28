@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Practical.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Naukri.com</title>
+    <u>
+        <h1>
+            <center> Personal Employment Education </center>
+        </h1>
+    </u>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <td><p align="right">Name:</p></td>
+            <td><input type="text" name="Fname" size="50" value="Enter you Full Name">
+            </td>
+            
+        </tr>
+
+
+        <tr>
+            <td><p align="right">Email ID*:</p></td>
+            <td><input type="text" name="Email" size="50" value="Enter your active Email Id to receive relevant jobs"></td>
+        </tr>
+
+        <tr>
+            <td><p align="right">Create Password* :</p></td>
+            <td><input type="text" name="Password" size="50" value="Minimum 6 Characters">
+            </td>
+     </tr>
+
+        <tr>
+            <td><p align="right">Mobile Number* :</p></td>
+            <td><input type="text" name="countryCode" maxlength="3" size="1" value="+91">
+                <input type="text" name="mobileNumber" maxlength="10" size="47" value="Where recruiter can contact you"></td>
+        </tr>
+
+        <tr>
+            <td><p align="right">Total Work Experience* :</p></td>
+            <td><input type="number" name="years" size="3" maxlength="2" value="Select">
+                Year(s)
+                <input type="number" name="months" size="3" maxlength="2" value="Select">
+                Month(s)</td>
+        </tr>
+
+        <tr>
+            <td><p align="right">Upload Resume:</p></td>
+            <td><button type="button">Upload Resume</button>
+                -or- <font size="3" color="#1c87c9">Copy-paste your resume here</font></td>
+        </tr>
+
+
+
+
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <form>
+        <input type="checkbox" name="T&C" value="tick">
+        I agreed to the <font size="3" color="#1c87c9">Terms and Conditions</font> governing the use of Naukri.com
+        <br>
+        <ensp>I have reviewed the default <font size="3" color="#1c87c9">Mailer & Communications settings</font>
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
