@@ -1,0 +1,44 @@
+public interface FruitSpecs1 {
+	
+	void welcome1();
+	void bill1();
+	void regards1();
+}
+
+class BigBasket1 implements FruitSpecs1 {
+
+	@Override
+	public void welcome1() {
+		System.out.println("Welcome to Big Basket!");
+	}
+
+	@Override
+	public void bill1() {
+		System.out.println("here's your bill");
+	}
+
+	@Override
+	public void regards1() {
+		System.out.println("Thank you for shopping at Big Basket");
+	}
+
+}
+
+class Groffers1 implements FruitSpecs1 {
+
+	@Override
+	public void welcome1() {	
+		System.out.println("Welcome to Groffers!");
+	}
+
+	@Override
+	public void bill1() {
+		System.out.println("Here's your bill!");
+	}
+
+	@Override
+	public void regards1() {
+		System.out.println("Thank You for shopping at Groffers");
+	}
+
+}
