@@ -1,0 +1,8 @@
+CREATE table FRUITS(
+S_NO int,
+FRUIT_TYPE varchar(30),
+FRUIT_QUANTITY float,
+FRUIT_PRICE float,
+TOTAL float);
+
+select * from fruits;
